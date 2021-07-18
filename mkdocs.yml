@@ -1,0 +1,10 @@
+site_name: YourName                      # Not used
+site_url: https://your_personal_website/ # Not used
+
+theme:
+  name: null
+  custom_dir: 'resume_theme/'
+
+markdown_extensions:
+  markdown_include.include: {}
+  md_in_html: {}

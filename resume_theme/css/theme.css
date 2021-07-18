@@ -1,0 +1,125 @@
+@page {
+  size: A4 portrait;
+  margin: 0.01cm;
+}
+
+body {
+  margin: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #023972;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5.8cm;
+  height: 100%;
+  font-size: 12pt;
+}
+
+header a {
+  color: white;
+}
+
+header h1 {
+  padding-left: 0em;
+  font-size: 24pt;
+  margin-bottom:  0.05em;
+}
+
+header .name {
+  font-size: 14pt;
+}
+
+header .name p {
+  margin-top: 0.05em;
+}
+
+header .header-title {
+  background-color: #002b55;
+  color: white;
+  padding-left: 0em;
+}
+
+header .header-title h2 {
+  padding-left: 0.5em;
+  font-size: 14pt;
+}
+
+header .header-main {
+  padding-left: 0.5em;
+}
+
+.resume {
+  margin-left: 6.2cm;
+  font-size: 12pt;
+}
+
+.resume .resume-header h2 {
+  font-size: 14pt;
+  padding-top: 1em;
+}
+
+.resume .resume-header h2:first-of-type {
+  padding-top: 0em;
+}
+
+.side {
+  background-color: #023972;
+  color: white;
+}
+
+.job-header table {
+  width: 1000px;
+  margin-left: 1em;
+}
+
+.job-header table thead {
+  text-align: left;
+}
+
+.job-header table thead tr th:first-of-type {
+  width: 70px;
+  padding-left: 0em;
+  font-weight: normal;
+}
+
+.job-header table thead tr th {
+  width: auto;
+  padding-left: 1em;
+}
+
+.job-header table tbody tr td:first-of-type {
+  width: 70px;
+  padding-left: 0em;
+}
+
+.job-header table tbody tr td {
+  width: auto;
+  padding-left: 1em;
+}
+
+.other-experience .resume-main .job .job-main ul li {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  height: 2em;
+  width: 100%;
+
+  text-align: left;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 0.6em;
+}
+
+footer a {
+  color: white;
+}

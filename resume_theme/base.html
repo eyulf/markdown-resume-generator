@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="{{ "css/theme.css"|url }}">
+
+    {% block extrahead %}
+    {% endblock %}
+
+    {% for path in config.extra_javascript %}
+    <script src="{{ path|url }}"></script>
+    {% endfor %}
+  </head>
+
+  <body>
+    {% block content %}
+      {{ page.content }}
+    {% endblock %}
+  </body>
+
+  <footer id="footer">
+    Generated with <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://weasyprint.org/">Weasyprint</a>.
+  </footer>
+</html>
